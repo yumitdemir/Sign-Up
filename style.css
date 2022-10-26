@@ -1,0 +1,256 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    
+}
+body{
+	overflow-y: hidden;
+}
+.container{
+    overflow-y:scroll;
+    height: calc(100vh - 1px);
+    min-height: 100%;
+  
+}
+
+html {
+    font-size: 16px; 
+  }
+
+.all{
+    display: flex;
+}
+
+#image-side{
+    display: flex;
+    align-items: center;
+    width: 40vw;
+    min-width: 40vw;
+    max-width: 40vw;
+    min-height: 100%;
+    background-image: url("insung-yoon-K8oOzBFb_yc-unsplash.jpg");
+    background-size: cover;
+    border-right: solid black 0px;
+    
+}
+
+
+fieldset{
+    padding-left: 50px;
+}
+#logo-text{
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    min-height: 20vh;
+    background-color: rgba(12, 12, 12, 0.137);
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    
+}
+
+#logo-text p {
+    font-family: 'Amatic SC', cursive;
+    font-size: 7.5vmax;
+    color: white;
+}
+
+
+.all-input{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vmax;
+    margin-top: 10px;
+    
+}
+
+.input{
+    display:flex;
+    flex-direction:column;
+}
+
+.input-rows{
+    display: flex;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    
+ 
+    margin-top: 0.5vmax;
+    padding-bottom: 20px;
+   
+}
+
+#title{
+font-size: 2vw ;
+font-family: 'Alegreya', serif;
+margin-bottom: 1vh;
+
+color: white;
+background-color: rgba(210, 84, 170, 0.765);
+border-radius: 10px;
+margin-left: 21vmax;
+padding: 10px;
+}
+
+
+#sub-title{
+    font-size: 2vw ;
+    font-family: 'Alegreya', serif;
+    margin-bottom: 4vh;
+    color: white;
+    background-color: rgba(210, 84, 170, 0.737);
+    border-radius: 10px;
+    
+    margin-left: 35vmax;
+    padding: 10px;
+    
+    
+}
+legend {
+    font-size: 2vw ;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(210, 84, 170);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.input-rows{
+    display: flex;
+    gap: 5vmax;
+    margin-bottom: 5vh;
+}
+
+input{
+    
+    width: 18vmax;
+    height: 1.5vmax;
+    
+    
+    border: 1px solid #e5e7eb;
+    border-radius: 5px;
+    padding: 0.5vmax 0.5vmax;
+}
+
+.creataccount{
+    width: 13vmax;
+    height: 3vmax;
+    background-color: rgb(210, 84, 170);
+    color: white;
+    font-size: 1.3vmax;
+    
+}
+.creataccount:hover{
+    cursor: pointer;
+}
+
+.all{
+    background-color: rgba(199, 174, 191, 0.153);
+}
+
+#login-side{
+    display: flex;
+    flex-direction: column;
+    
+    margin: 1%;
+    margin-top: 3vw;
+    align-items:flex-start;
+    
+}
+
+.answeryes{
+    font-size: 1vw ;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 5px;
+    margin-left:40vw;
+    margin-bottom: 1vh;
+}
+
+
+.answeryes:hover{
+    cursor: pointer;
+}
+.nav{
+    
+    position: absolute;
+    left: 0;
+    width: 91.5vw;
+    background-color: rgb(252, 252, 252);
+    justify-content: flex-end;
+    border-bottom: solid 1px rgba(159, 159, 159, 0.368);
+    padding: 2px;
+    
+}
+#dd{
+    
+    height: 200%;
+}
+.nav div{
+    display: flex;
+    justify-content: space-between;
+    height: 2.3vmax;
+    gap: 2vmax;
+    
+    margin-right: 0.3vmax;
+}
+
+.nav div img{
+    height: 70%;
+    align-self: center;
+}
+
+label{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+
+
+
+.odin{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    right: 0px;
+    color: black;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 4vmax;
+    
+    background-color: rgba(211, 148, 192, 0.737);
+}
+
+.odin2{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    padding-right: 7px;
+    right: 0px;
+    color: black;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 4vmax;
+    
+    
+    background-color: rgba(211, 148, 192, 0.737);
+}
